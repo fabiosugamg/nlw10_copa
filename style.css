@@ -15,7 +15,7 @@
     --card-title-border-color: #338af3;
     --card-color-primary: #338af3;
     --card-bg-color: #202024;
-        --bg: url(./assets/bg-blue.svg);
+    --bg: url(./assets/bg-blue.svg);
   }
   
   body.green {
@@ -58,7 +58,7 @@
     padding: 32px 23px;
     text-align: center;
   
-    background: var(--rescard-bg-color);
+    background: var(--card-bg-color);
     border-bottom: 2px solid var(--card-color-primary);
     border-radius: 6px;
   }
