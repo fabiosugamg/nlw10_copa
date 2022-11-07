@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
   }
   
   :root {
@@ -11,6 +12,8 @@
     --bg: url(./assets/bg-yellow.svg);
   }
   
+
+
   body.blue {
     --card-title-border-color: #338af3;
     --card-color-primary: #338af3;
@@ -47,6 +50,8 @@
     margin-bottom: 63px;
     text-align: center;
   }
+
+
   
   #cards {
     display: flex;
@@ -129,6 +134,8 @@
     opacity: 0;
     animation: appear 0.2s forwards;
   }
+
+  
   
   @keyframes appear {
     0% {
@@ -149,3 +156,36 @@
     }
   }
   
+  .wrapper {
+    text-align: center ;
+    padding: 20px;
+    color: white;
+  }
+
+  footer .wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  footer {
+    text-transform: uppercase;
+  }
+  
+  footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    size: fit-content;
+  }
+  
+   
+  footer a {
+    margin-left: 5px;
+    color: white;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
