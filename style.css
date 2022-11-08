@@ -10,7 +10,7 @@
     --card-group-color: #046332;
     --card-color-primary: #047c3f;
     --card-bg-color: #1a1f1b;
-    --bg: url(./assets/bg-green.svg);;
+    --bg: url(./assets/bg-brasil-copa.jpg);
   }
   
  /*body.yellow {
@@ -26,33 +26,34 @@
     --card-group-color: #d5dbec;
     --card-color-primary: #338af3;
     --card-bg-color: #202024;
-    --bg: url(./assets/bg-blue.svg);
+    --bg: url(./assets/bg-3.png);
   }
   
-  body.green {
+  /*body.green {
     --card-title-border-color: #047c3f;
     --card-group-color: #c6dfd2;
     --card-color-primary: #047c3f;
     --card-bg-color: #1a1f1b;
     --bg: url(./assets/bg-brasil.png);
-  }
+  }*/
 
-  /*body.red{
+  body.red{
   --card-title-border-color: #a80f1e;
   --card-group-color: #d4c1c9;
   --card-color-primary: #bd113c;
   --card-bg-color: #250e12;
-  --bg: url(./assets/bg-copa-2022.png);
-}*/
+  --bg: url(./assets/bg-red2-copa.jpg);
+}
 
   body {
-    background: #121214 var(--bg) no-repeat top center/cover;
+    background: #121214 var(--bg) no-repeat top left/cover;
   }
   
   #btn-color {
     display: flex;
-    margin-top: -60px;
+    margin-top: -160px;
     margin-left: auto;
+    margin-bottom: 150px;
     box-shadow: 2px 2px 5px var(--card-group-color);
     border: 2px solid var(--card-group-color);
   
@@ -61,8 +62,8 @@
     background-color: var(--card-title-border-color);
     color: white;
   
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 120px;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
@@ -80,7 +81,7 @@
   }
   
   body {
-    background: #121214 var(--bg) no-repeat top center/cover;
+    background: #121214 var(--bg) no-repeat top left/cover;
   }
   
   body * {
@@ -256,9 +257,9 @@
     margin-bottom: 0;
   }
   
-  footer {
+  /*footer {
     text-transform: uppercase;
-  }
+  }*/
   
   footer div {
     display: flex;

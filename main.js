@@ -1,6 +1,6 @@
 const btnChangeColor = document.querySelector("#btn-color")
 
-let bgdColors = ["yellow", "blue", "green", "root", "red"]
+let bgdColors = ["blue", "root", "red"]
 let position = 0
 
 btnChangeColor.addEventListener("click", function (event) {
@@ -86,7 +86,7 @@ document.querySelector("#cards").innerHTML =
     "Quinta",
     createGame("suiça", "07:00", "camaroes", "G") +
       createGame("brasil", "16:00", "servia", "G") +
-      createGame("uruguai", "10:00", "coreia do Sul", "H") +
+      createGame("uruguai", "10:00", "coreia do sul", "H") +
       createGame("portugal", "13:00", "gana", "H")
   ) +
   createCard(
@@ -158,6 +158,6 @@ document.querySelector("#cards").innerHTML =
     "Sexta",
     createGame("coreia do sul", "12:00", "portugal", "H") +
       createGame("gana", "12:00", "uruguai", "H") +
-      createGame("servia", "16:00", "suissa", "G") +
+      createGame("servia", "16:00", "suiça", "G") +
       createGame("camaroes", "16:00", "brasil", "G")
   )
