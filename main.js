@@ -8,6 +8,7 @@ btnChangeColor.addEventListener("click", function (event) {
   event.target.parentNode.parentNode.parentNode.className = bgdColors[position]
 })
 
+function createGame(player1, hour, player2, group) {
   let player1alt = player1.slice(-1) === "a" ? "da" : "do"
   let player2alt = player2.slice(-1) === "a" ? "da" : "do"
 
@@ -93,7 +94,7 @@ document.querySelector("#cards").innerHTML =
     "Sexta",
     createGame("pais de gales", "07:00", "iran", "B") +
       createGame("qatar", "10:00", "senegal", "A") +
-      createGame("holanda", "13:00", "equador", "A")
+      createGame("holanda", "13:00", "equador", "A")+
       createGame("inglaterra", "16:00", "eua", "B")
   ) +
   createCard(
